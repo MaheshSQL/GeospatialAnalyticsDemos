@@ -1,8 +1,10 @@
+### Geospatial Analytics Master Class demos
+
+This repository contains notebooks created to demonstrate Geospatial Data workflow, transformations and visualisations using the Azure platform.
+
 ---------
 
-Geospatial Analytics Master Class demos
-
----------
+#### Environment
 conda create --name geospatial python==3.9 --yes
 
 conda activate geospatial
@@ -11,7 +13,7 @@ conda install notebook ipykernel --yes
 
 ipython kernel install --name geospatial --display-name "Python 3.9 (geospatial)" --user
 
----------
+#### Libraries
 conda install --channel conda-forge geopandas --yes
 #conda install geopandas --yes <==THIS GIVES CRS Error!!
 pip install planetary-computer
